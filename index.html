@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lab 2</title>
   <meta charset="utf 8"/>
+  <title>Lab 2</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
+  <body>
+    <div id="form">
+      <form method="get"action= "#null" autocomplete="on">
+        <h2>Personal Information Request Form</h2>
+          <fieldset>
+            <legend>Please fill out the following information.</legend>
+            <label>Full Name:</label>
+            <input class="form_input" type="text" name="form_input" placeholder="John Smith">
+
+            <label>Email Adress:</label>
+            <input class="form_input" type="text" name="form_input" placeholder="jsmith@gmail.com">
+
+            <label>Date of Birth:</label>
+            <input class="form_input" type="text" name="form_input" placeholder="mm/dd/yyyy">
+          </fieldset>
+      </form>
+      <button id="button">Submit</button>
+    </div>
+  </body>
 </html>
