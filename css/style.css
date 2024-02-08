@@ -1,0 +1,16 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    margin:2%;
+    padding:1 rem;
+}
+
+.forminput {
+    width:95%;
+    font-size:12px;
+    padding: 3px 5px;
+    border: 1px cornflowerblue;
+    border-radius:5px;
+    padding:1rem;
+}
+
